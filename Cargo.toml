@@ -22,7 +22,7 @@ panic = "abort"
 panic = "abort"
 
 [features]
-default = []
+default = ["glsl-in", "glsl-out"]
 clone = []
 dot-out = []
 glsl-in = ["pp-rs"]
